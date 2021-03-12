@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.Extensions.DependencyInjection;
 using Saibadata.ApiTools.Interfaces;
+using Saibadata.ApiTools.Mapping;
 
 namespace Saibadata.ApiTools.Extensions
 {
@@ -18,7 +19,8 @@ namespace Saibadata.ApiTools.Extensions
             });
 
             services.AddScoped<IPageLinksBuilder, PageLinksBuilder>();
-            
+            services.AddScoped<IPropertyMappingService, PropertyMappingService>();
+
 
             return services;
         }
