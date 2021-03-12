@@ -5,11 +5,13 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>Saiba Data Systems Ltd</Company>
     <Authors>Richard Hernandez</Authors>
-    <Version>1.0.1</Version>
+    <Version>1.1.0</Version>
+    <Description>add service extension.</Description>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="Microsoft.Extensions.Primitives" Version="5.0.0" />
   </ItemGroup>
 
