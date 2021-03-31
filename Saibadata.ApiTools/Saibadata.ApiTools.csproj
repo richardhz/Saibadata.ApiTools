@@ -5,7 +5,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>Saiba Data Systems Ltd</Company>
     <Authors>Richard Hernandez</Authors>
-    <Version>1.1.4</Version>
+    <Version>1.1.6</Version>
     <Description>add service extension, property mapping, Unhandled exception filter, add an async method for PagedList.Create</Description>
   </PropertyGroup>
 
