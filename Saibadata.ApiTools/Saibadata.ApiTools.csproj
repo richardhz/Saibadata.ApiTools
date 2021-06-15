@@ -5,8 +5,11 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>Saiba Data Systems Ltd</Company>
     <Authors>Richard Hernandez</Authors>
-    <Version>1.1.6</Version>
+    <Version>1.1.7</Version>
     <Description>add service extension, property mapping, Unhandled exception filter, add an async method for PagedList.Create</Description>
+    <Copyright>Saiba Data Systems Ltd.</Copyright>
+    <PackageReleaseNotes>Under development</PackageReleaseNotes>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +19,13 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.4" />
     <PackageReference Include="Microsoft.Extensions.Primitives" Version="5.0.0" />
     <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
